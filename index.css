@@ -1,10 +1,55 @@
+body{
+    background-image: url("baby.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  max-height: fit-content;
+  max-width: 3000px;
+  background-attachment: fixed;
+}
 div {
     text-align: center;
     font-size: 45px;
+    margin-top: 5%;
 }
  p{
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    margin-bottom: 50%;
+    border: 3px solid hsl(0, 0%, 95%);
+    padding: 16px;
+ }
+
+ form {
+    border: 3px solid #ccc;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 1%;
+    background-color: #f5f0f0;
+    padding: 50px;
+    
+ }
+ input {
+    width: fit-content;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+  
+  
+ }
+ label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+ }
+
+ button {
+    background-color: rgb(171, 236, 245);
+    padding: 5px 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
  }
