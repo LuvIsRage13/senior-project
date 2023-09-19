@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<header>
+<html>
+<head>
+    <title>Login Page</title>
     <link rel="stylesheet" href="index.css">
-</header>
+</head>
 <body>
-    <div>Login</div>
-    
-    <form action="home.html" method="get">
-        <Label for="uname">Username</Label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <br>
-        <label for="pass">Password</label>
-        <input type="password" placeholder="Enter Password" name="pass" required>
-        <br>
-        <button type="submit">Login</button>
-        <br>
-        Dont have an account? <a href="sign.html">Sign Up!</a>
-    </form>
-    
+    <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter your username" name="uname" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter your password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
+</html>
