@@ -17,10 +17,10 @@ if(isset($_POST['uname']) && isset($_POST['password'])) {
         $row = mysqli_fetch_assoc($result);
 
         if($row['uname'] === $uname && $row['password'] === $password) {
-            echo "Logged in!"
+            echo "Logged in!";
         }
         else{
-            
+
         }
     }
     else{
