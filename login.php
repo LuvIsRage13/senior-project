@@ -18,6 +18,7 @@ if(isset($_POST['uname']) && isset($_POST['password'])) {
 
         if($row['uname'] === $uname && $row['password'] === $password) {
             echo "Logged in!";
+            header("Location: home.php");
         }
         else{
 

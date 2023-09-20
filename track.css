@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #333;
+    border: 10px #333;
+    padding: 10px 10px;
+    overflow: hidden;
+    
+}
+
+a{
+    float: left; /* Arrange links horizontally */
+    display: block; /* Make the entire link clickable */
+    color: white; /* Text color for links */
+    text-align: center; /* Center-align text within links */
+    padding: 14px 16px; /* Padding around text (top and bottom, left and right) */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+nav #sign {
+    float: right;
+}
+
+.container {
+    max-width: 400px;
+    margin: 15px auto;
+    
+    padding: 30px;
+    padding-right: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

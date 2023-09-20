@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    
+}
+
+div {
+    text-align: center;
+    font-size: 43;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #333;
+    border: 10px #333;
+    padding: 10px 10px;
+    overflow: hidden;
+
+}
+
+a{
+    float: left; /* Arrange links horizontally */
+    display: block; /* Make the entire link clickable */
+    color: white; /* Text color for links */
+    text-align: center; /* Center-align text within links */
+    padding: 14px 16px; /* Padding around text (top and bottom, left and right) */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+nav #sign {
+    float:right;
+}
+
+table {
+    margin: 15px auto;
+    font-size: large;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: #006600;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    ' Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+}
+
+th,
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-weight: lighter;
+}
