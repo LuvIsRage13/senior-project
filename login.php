@@ -1,5 +1,6 @@
 <?php
 include "db_conn.php";
+session_start();
 if(isset($_POST['uname']) && isset($_POST['password'])) {
     function validate($data){
         $data = trim($data);
@@ -17,19 +18,24 @@ if(isset($_POST['uname']) && isset($_POST['password'])) {
         $row = mysqli_fetch_assoc($result);
 
         if($row['uname'] === $uname && $row['password'] === $password) {
-            echo "Logged in!";
+            $_SESSION['id'] = $row['id'];
+            $user_id = $_SESSION['id'] ;
+          
             header("Location: home.php");
-        }
-        else{
-
         }
     }
     else{
-        header("Location: index.php?error=Incorrect Username or Password");
-        exit();
+
+echo '<script type="text/javascript">
+
+            window.onload = function () { alert("Incorrect Username or Password, try again.");
+            history.go(-1); }
+            
+</script>';
+
     }
 }else{
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 

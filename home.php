@@ -1,6 +1,12 @@
 <?php
+session_start();
 include "db_conn.php";
-$sql = "SELECT * FROM baby WHERE id=1";
+
+$user_id = $_SESSION['id'] ;
+
+
+
+$sql = "SELECT * FROM baby WHERE id=$user_id";
 $result = $conn->query($sql);
 ?>
 <header>
