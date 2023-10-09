@@ -14,7 +14,7 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="home.css">
     <nav>
         <a href="home.php">Home</a>
-        <a href="track.html">Track</a>
+        <a href="list.html">Track</a>
         <a href="index.html" id="sign">Sign out</a>
     </nav>
 </header>
