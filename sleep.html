@@ -13,15 +13,15 @@
 </header>
 <body>
     <div class="container">
-        <h1>Baby Tracker</h1>
-        <form action="track.php" method="post">
+        <h1>Sleep Tracking</h1>
+        <form action="sleep.php" method="post">
             <div class="form-group">
-                <label for="height">Height (cm):</label>
-                <input type="number" id="height" name="height" required autofocus step="0.01">
+                <label for="Bedtime">When they went to bed:</label>
+                <input type="time" id="time" name="time" required >
             </div>
             <div class="form-group">
-                <label for="weight">Weight (lbs):</label>
-                <input type="number" id="weight" name="weight" required>
+                <label for="WakeUp">When they went woke up:</label>
+                <input type="time" id="time" name="time" required >
             </div>
             <button type="submit">Track</button>
         </form>
