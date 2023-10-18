@@ -14,14 +14,14 @@
 <body>
     <div class="container">
         <h1>Diaper Tracking</h1>
-        <form action="feed.php" method="post">
+        <form action="change.php" method="post">
             <div class="form-group">
-                <label for="LastChanged">When they were last changed:</label>
-                <input type="time" id="time" name="time" required >
+                <label for="lastChanged">When they were last changed:</label>
+                <input type="time" id="lastChanged" name="lastChanged" required >
             </div>
             <div class="form-group">
                 <label for="notes">Notes:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="notes" name="notes" placeholder="Put notes here if needed...">
             </div>
             <button type="submit">Track</button>
         </form>

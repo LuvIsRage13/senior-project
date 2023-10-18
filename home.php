@@ -34,6 +34,10 @@ $result = $conn->query($sql);
                 <th>Last Time Fed</th>
                 <th>Went to sleep</th>
                 <th>Woke up</th>
+                <th>Last time changed:</th>
+                <th>Notes:</th>
+                <th>Last Time Ate:</th>
+                <th>Food:</th>
             </tr>
 
                 <tr>
@@ -43,6 +47,10 @@ $result = $conn->query($sql);
                 <td><?php echo $rows['time'];?></td>
                 <td><?php echo $rows['bedtime'];?></td>
                 <td><?php echo $rows['wakeUp'];?></td>
+                <td><?php echo $rows['lastChanged'];?></td>
+                <td><?php echo $rows['notes'];?></td>
+                <td><?php echo $rows['lastAte'];?></td>
+                <td><?php echo $rows['foodType'];?></td>
                 </tr>
             <?php
                 }
