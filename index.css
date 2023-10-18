@@ -1,10 +1,10 @@
 body {
    font-family: Arial, sans-serif;
    text-align: center;
-   background-image: linear-gradient(to bottom right, #035227, #eef4f7);
+   background-image: linear-gradient(to bottom right, #0babdb, #eef4f7);
    overflow:auto;
    background-size: cover;
-   
+   background-attachment: fixed;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
    margin: 0 auto;
    padding: 5%;
    padding-left: 4%;
-   padding-top: 4%;
+   padding-top: 1%;
    border: 3px solid #000000;
    background-color: rgb(247, 244, 244);
 }
@@ -29,7 +29,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-   background-color: #4CAF50;
+   background-color: #0babdb;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -39,5 +39,9 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
    background-color: #0056b3;
+}
+
+h1 {
+   color:rgba(0, 16, 241, 0.822);
 }
 

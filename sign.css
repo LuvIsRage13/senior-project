@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to bottom left, #0babdb, #eef4f7);
+    overflow:auto;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -8,10 +11,12 @@ body {
 .container {
     width: 300px;
     margin: 0 auto;
+    margin-top:20px;
     padding: 20px;
     padding-right:40px;
     background-color: #fff;
     border-radius: 5px;
+    border:3px solid #0a9dca;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -37,7 +42,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #0a9dca;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -46,5 +51,15 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="button"] {
+    background-color: #0a9dca;
+    color: #fff;
+    
+}
+
+input[type="button"]:hover {
     background-color: #0056b3;
 }
