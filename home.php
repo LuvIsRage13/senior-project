@@ -32,6 +32,8 @@ $result = $conn->query($sql);
                 <th>Weight(lbs)</th>
                 <th>Age(months)</th>
                 <th>Last Time Fed</th>
+                <th>Went to sleep</th>
+                <th>Woke up</th>
             </tr>
 
                 <tr>
@@ -39,6 +41,8 @@ $result = $conn->query($sql);
                 <td><?php echo $rows['weight'];?></td>
                 <td><?php echo $rows['age'];?></td>
                 <td><?php echo $rows['time'];?></td>
+                <td><?php echo $rows['bedtime'];?></td>
+                <td><?php echo $rows['wakeUp'];?></td>
                 </tr>
             <?php
                 }
