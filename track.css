@@ -20,6 +20,10 @@ a{
     transition: background-color 0.3s; /* Smooth background color transition on hover */
 }
 
+a:hover{
+    background-color: #312929;
+}
+
 nav #sign {
     float: right;
 }
@@ -74,4 +78,15 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+span {
+    margin-left: 37.5%;
+    font-size: 40px;
+    color: white;
+}
+
+span:hover {
+    text-shadow: 2px 2px 8px #746969;
+    cursor: pointer;
 }

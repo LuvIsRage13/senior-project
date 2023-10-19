@@ -79,3 +79,18 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color: #04f0f8;
 }
+
+span {
+    margin-left: 37.5%;
+    font-size: 40px;
+    color: white;
+}
+
+span:hover {
+    text-shadow: 2px 2px 8px #746969;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #312929;
+}
