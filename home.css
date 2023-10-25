@@ -19,6 +19,16 @@ nav{
     overflow: hidden;
 }
 
+a{
+    float: left; /* Arrange links horizontally */
+    display: block; /* Make the entire link clickable */
+    color: white; /* Text color for links */
+    text-align: center; /* Center-align text within links */
+    padding: 14px 16px; /* Padding around text (top and bottom, left and right) */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
 a:hover{
     background-color: #312929;
 }
@@ -33,7 +43,7 @@ a:hover{
     transition: background-color 0.3s; 
 }
 
-.sign {
+nav #sign {
     float:right;
     display: block; 
     color: white; 
@@ -119,13 +129,13 @@ th{
 }
 
 span {
-    margin-left: 37.5%;
+    margin-left: 37%;
     font-size: 40px;
     color: white;
 }
 
 span:hover {
-    text-shadow: 2px 2px 8px #746969;
+    background-color: #312929;
     cursor: pointer;
 }
 
@@ -166,3 +176,11 @@ strong {
 .xampp:hover{
     background-color: gainsboro;
 }
+
+a:hover{
+    background-color: #312929;
+}
+
+#my{
+    zoom: 100%;
+    }

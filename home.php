@@ -15,9 +15,10 @@ $result = $conn->query($sql);
     <nav>
         <a href="home.php">Home</a>
         <a href="list.html">Track</a>
-        <a href="index.html" id="sign">Sign out</a>
+     
         <a href="about.html">About</a>
-        <span onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')" target="_blank">&#128118;</span>
+        <span onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')" target="_blank"><img src="baby.png" height-"70px" width="70px"></span>
+        <a href="index.html" id="sign">Sign out</a>
     </nav>
 </header>
 <body>

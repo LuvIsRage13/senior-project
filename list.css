@@ -87,7 +87,7 @@ span {
 }
 
 span:hover {
-    text-shadow: 2px 2px 8px #746969;
+    background-color: #312929;
     cursor: pointer;
 }
 
