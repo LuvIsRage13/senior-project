@@ -2,7 +2,7 @@
 session_start();
 include "db_conn.php";
 
-$user_id = $_SESSION['id'] ;
+$user_id = $_SESSION['id'];
 
 
 
@@ -17,8 +17,9 @@ $result = $conn->query($sql);
         <a href="list.html">Track</a>
      
         <a href="about.html">About</a>
-        <span onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')" target="_blank"><img src="baby.png" height-"70px" width="70px"></span>
+        <span onclick="location.href = 'home.php';"><img src="baby.png" height-"70px" width="70px"></span>
         <a href="index.html" id="sign">Sign out</a>
+        <a href="delete.html" id="sign">Delete Account</a>
     </nav>
 </header>
 <body>

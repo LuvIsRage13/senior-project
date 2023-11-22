@@ -3,7 +3,7 @@
 <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sleeping</title>
+    <title>Delete Account?</title>
     <link rel="stylesheet" href="track.css">
     <nav>
     <a href="home.php">Home</a>
@@ -15,17 +15,11 @@
 </header>
 <body>
     <div class="container">
-        <h1>Sleep Tracking</h1>
-        <form action="sleep.php" method="post">
-            <div class="form-group">
-                <label for="bedtime">When they went to bed:</label>
-                <input type="time" id="bedtime" name="bedtime" required >
-            </div>
-            <div class="form-group">
-                <label for="wakeUp">When they woke up:</label>
-                <input type="time" id="wakeUp" name="wakeUp" required >
-            </div>
-            <button type="submit">Track</button>
+        <h1>Are you sure you want to delete your account?</h1>
+        <form action="delete.php" method="post">
+                <input type="submit" value="Yes">
+                <input type="button" onclick="window.location='home.html'" value="No">
+            
         </form>
     </div>
 </body>

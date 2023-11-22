@@ -81,7 +81,7 @@ button:hover {
 }
 
 span {
-    margin-left: 37.5%;
+    margin-left: 34.5%;
     font-size: 40px;
     color: white;
 }
@@ -89,4 +89,34 @@ span {
 span:hover {
     background-color: #312929;
     cursor: pointer;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    display: inline-block;
+}
+input[type="button"] {
+    background-color: #d61313;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: #69b86c;
+}
+
+input[type="button"]:hover {
+    background-color: #ce3c3c;
 }
