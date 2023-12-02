@@ -13,13 +13,13 @@ nav{
 }
 
 a{
-    float: left; /* Arrange links horizontally */
-    display: block; /* Make the entire link clickable */
-    color: white; /* Text color for links */
-    text-align: center; /* Center-align text within links */
-    padding: 14px 16px; /* Padding around text (top and bottom, left and right) */
-    text-decoration: none; /* Remove underlines from links */
-    transition: background-color 0.3s; /* Smooth background color transition on hover */
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
 }
 
 nav #sign {

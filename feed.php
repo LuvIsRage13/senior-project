@@ -3,7 +3,7 @@ session_start();
 $user_id = $_SESSION['id'] ;
 
 include "db_conn.php";
-if(isset($_POST['lastAte']) && isset($_POST['foodType'])) {
+if(isset($_POST['lastAte']) && isset($_POST['foodType'])) { //checks user input and strips data to a more readable format
     function validate($data){
         $data = trim($data);
         $data = stripslashes($data);
@@ -22,6 +22,6 @@ if(isset($_POST['lastAte']) && isset($_POST['foodType'])) {
         $sql2 = "UPDATE baby SET lastAte = '$lastAte', foodType = '$foodType' WHERE id = $user_id";
         $stmt = $conn->prepare($sql2);
         $stmt->execute();
-        header("Location: home.php");
+        header("Location: list.html");
     }
 }  

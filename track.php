@@ -3,7 +3,7 @@ session_start();
 $user_id = $_SESSION['id'] ;
 
 include "db_conn.php";
-if(isset($_POST['height']) && isset($_POST['weight']) && isset($_POST['age']) && isset($_POST['name'])) {
+if(isset($_POST['height']) && isset($_POST['weight']) && isset($_POST['age']) && isset($_POST['name'])) { //checks user input and strips data to a more readable format
     function validate($data){
         $data = trim($data);
         $data = stripslashes($data);
@@ -46,7 +46,7 @@ if(isset($_POST['height']) && isset($_POST['weight']) && isset($_POST['age']) &&
     $sql2 = "UPDATE baby SET height='$height', weight = '$weight', age = '$age', name = '$name' WHERE id=$user_id";
     $stmt2 = $conn->prepare($sql2);
     $stmt2->execute();
-    header("Location: home.php");
+    header("Location: list.html");
         }
     } 
 }
