@@ -20,7 +20,7 @@ $user_id = $_SESSION['id'] ;
 
     }
     else{
-        echo "you suck mf";
+        echo "No user found";
     }
 
 
